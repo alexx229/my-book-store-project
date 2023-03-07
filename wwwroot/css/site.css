@@ -2,6 +2,7 @@ html {
   font-size: 14px;
 }
 
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -11,13 +12,47 @@ html {
 html {
   position: relative;
   min-height: 100%;
+  background-color: whitesmoke;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: whitesmoke;
 }
 
 
-.btn {
-    background-color: brown;
+.btn.btn-dark {
+    background-color: whitesmoke;
+}
+
+.btn-primary {
+    background-color: #C1AE9F;
+    outline: 0;
+    border: none;
+    margin: 5px;
+}
+
+.btn-primary:hover {
+   background-color: #b59e8c;
+    outline: 0;
+    border: none;
+    margin: 5px;
+}
+
+.btn-success {
+    background-color: #715B64;
+    outline: 0;
+    border: none;
+    margin: 5px;
+}
+
+.btn-success:hover {
+     background-color: #634f58;
+     outline: 0;
+     border: none;
+     margin: 5px;
+}
+
+.navbar-brand {
+    margin: 10px;
 }
